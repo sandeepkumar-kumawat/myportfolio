@@ -10,7 +10,7 @@ const Footer = () => {
                 </p>
                 <div className="flex justify-center gap-6 mb-8">
                     {/* Social placeholders */}
-                    <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/sandeep-kumar-kumawat-797464345" className="hover:text-white transition-colors">LinkedIn</a>
                     <a href="#" className="hover:text-white transition-colors">GitHub</a>
                     <a href="#" className="hover:text-white transition-colors">Google Scholar</a>
                 </div>

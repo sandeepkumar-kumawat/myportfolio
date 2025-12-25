@@ -36,7 +36,7 @@ const Navbar = () => {
                             <GraduationCap size={24} />
                         </div>
                         <span className={`font-bold text-lg md:text-xl tracking-tight ${scrolled ? 'text-slate-900' : 'text-slate-900'}`}>
-                            Sandeep<span className="text-slate-500 font-normal">.Research</span>
+                            Sandeep<span className="text-slate-500 font-normal">.Kumawat</span>
                         </span>
                     </a>
 
