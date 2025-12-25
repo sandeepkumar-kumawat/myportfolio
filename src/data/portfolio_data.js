@@ -9,7 +9,7 @@ export const personalDetails = {
     phone: "8562013985",
     location: "Rajasthan, India",
     links: {
-        linkedin: "#", // Placeholder
+        linkedin: "https://www.linkedin.com/in/sandeep-kumar-kumawat-797464345", // Placeholder
         github: "#",   // Placeholder
         googleScholar: "#" // Placeholder
     }
