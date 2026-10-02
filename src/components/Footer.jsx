@@ -1,25 +1,2 @@
-import { personalDetails } from '../data/portfolio_data';
-
-const Footer = () => {
-    return (
-        <footer className="bg-slate-900 text-slate-300 py-12">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className="text-2xl font-bold text-white mb-4">{personalDetails.name}</h2>
-                <p className="text-slate-400 mb-8 max-w-lg mx-auto">
-                    Exploring the intersection of life sciences and artificial intelligence.
-                </p>
-                <div className="flex justify-center gap-6 mb-8">
-                    {/* Social placeholders */}
-                    <a href="https://www.linkedin.com/in/sandeep-kumar-kumawat-797464345" className="hover:text-white transition-colors">LinkedIn</a>
-                    <a href="#" className="hover:text-white transition-colors">GitHub</a>
-                    <a href="#" className="hover:text-white transition-colors">Google Scholar</a>
-                </div>
-                <div className="border-t border-slate-800 pt-8 text-sm text-slate-500">
-                    © {new Date().getFullYear()} Sandeep Kumar Kumawat. All rights reserved.
-                </div>
-            </div>
-        </footer>
-    );
-};
-
-export default Footer;
+import { portfolioData } from "../data/portfolio_data";
+export default function Footer(){return <footer className="bg-slate-950 text-slate-500 border-t border-white/10 py-6"><div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row justify-between gap-2 text-sm"><span>© {new Date().getFullYear()} {portfolioData.personal.name}</span><span>Computational Biology · IIT Jodhpur</span></div></footer>}
